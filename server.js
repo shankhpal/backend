@@ -18,8 +18,6 @@ app.use("/api/courses", courseRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/userCourses",myCoursesRoutes);
 
-
-
 app.use(notFound);
 app.use(errorHandler);
 

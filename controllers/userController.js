@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
-const Course = require("../models/courseModel.js");
-const MyCourse = require("../models/myCourseModel.js");
+const Tweet = require("../models/tweetModel.js");
+const Comment = require("../models/commentModel.js");
 const User = require("../models/userModel.js");
 const generateToken = require("../utils/generateToken.js");
 

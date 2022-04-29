@@ -36,7 +36,11 @@ const userSchema = mongoose.Schema(
       type: Number,
       required: true,
       maxLength: 10
-    }
+    },
+    tweet: [{ 
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Tweet"
+   }]
   },
   {
     timestamps: true,
